@@ -10,6 +10,6 @@ public class OllehController {
 
     @RequestMapping(value = "/hello", method = RequestMethod.GET)
     public String hello() {
-        return "Hello, Azure with @RequestMapping!";
+        return "Hello, Azure with ktds OCS!";
     }
 }
